@@ -1,12 +1,53 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ROBINSON\\OneDrive\\Escritorio\\repositorio\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B35F190-3FF3-4726-8814-2F9A973AC27C}|PROYECTO\\PROYECTO.vcxproj|C:\\Users\\ROBINSON\\OneDrive\\Escritorio\\repositorio\\PROYECTO\\AssemblyInfo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2B35F190-3FF3-4726-8814-2F9A973AC27C}|PROYECTO\\PROYECTO.vcxproj|solutionrelative:PROYECTO\\AssemblyInfo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B35F190-3FF3-4726-8814-2F9A973AC27C}|PROYECTO\\PROYECTO.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\EXCEPTION||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "exception",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\exception",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\exception",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\exception",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\exception",
+              "ViewState": "AQIAAA0BAAAAAAAAAAAMwB4BAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-16T18:13:13.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssemblyInfo.cpp",
+              "DocumentMoniker": "C:\\Users\\ROBINSON\\OneDrive\\Escritorio\\repositorio\\PROYECTO\\AssemblyInfo.cpp",
+              "RelativeDocumentMoniker": "PROYECTO\\AssemblyInfo.cpp",
+              "ToolTip": "C:\\Users\\ROBINSON\\OneDrive\\Escritorio\\repositorio\\PROYECTO\\AssemblyInfo.cpp",
+              "RelativeToolTip": "PROYECTO\\AssemblyInfo.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-16T18:08:06.013Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

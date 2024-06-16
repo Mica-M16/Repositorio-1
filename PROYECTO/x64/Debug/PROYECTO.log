@@ -1,0 +1,4 @@
+﻿  AssemblyInfo.cpp
+  AssemblyInfo.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+LINK : warning LNK4067: punto de entrada ambiguo; se seleccionó 'mainCRTStartup'
+  PROYECTO.vcxproj -> C:\Users\ROBINSON\OneDrive\Escritorio\repositorio\x64\Debug\PROYECTO.exe
