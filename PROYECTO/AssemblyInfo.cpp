@@ -6,17 +6,18 @@
 #include <cstdio>
 #include <algorithm>
 #include <cctype>
-#include <string>
+#include <string> 
 
 using namespace std;
-
+ 
 
 struct Usuario
 {
     string Nombres;
     string Apellidos;
     string Direccion;
-    int DNI;
+    int DNI;//último numero dni por ejemplo "78475745" recoge el "5" entonces lo recoge a partir de las 5pm 
+    //o estara disponible a las 5pm la hora de envio.
     int Edad;
     char Sexo;
     int Celular;
@@ -31,18 +32,6 @@ struct Libros
     string Local;
     int LibroCodigo;
     int Precio;
-
-};
-
-struct Ventas
-{
-    string Nombres;
-    string Apellidos;
-    string Direccion;
-    int DNI;
-    int Edad;
-    char Sexo;
-    int Celular;
 
 };
 
@@ -105,7 +94,7 @@ int main()
 
 
 
-
+	
 
 
     switch (OpcionProceso)
@@ -153,7 +142,7 @@ void VentaLibros()
 
 }
 
-void RecojoLIbros()
+void RecojoLibros()
 {
 
 }

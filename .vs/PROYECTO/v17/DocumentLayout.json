@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{2B35F190-3FF3-4726-8814-2F9A973AC27C}|PROYECTO\\PROYECTO.vcxproj|solutionrelative:PROYECTO\\AssemblyInfo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B35F190-3FF3-4726-8814-2F9A973AC27C}|PROYECTO\\PROYECTO.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\EXCEPTION||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\exception||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,8 +29,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\exception",
               "ViewState": "AQIAAA0BAAAAAAAAAAAMwB4BAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-16T18:13:13.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-16T18:13:13.316Z"
             },
             {
               "$type": "Document",
@@ -40,8 +39,9 @@
               "RelativeDocumentMoniker": "PROYECTO\\AssemblyInfo.cpp",
               "ToolTip": "C:\\Users\\ROBINSON\\OneDrive\\Escritorio\\repositorio\\PROYECTO\\AssemblyInfo.cpp",
               "RelativeToolTip": "PROYECTO\\AssemblyInfo.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAuwIkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "OverriddenGroupName": "PROYECTO",
               "WhenOpened": "2024-06-16T18:08:06.013Z",
               "EditorCaption": ""
             }
