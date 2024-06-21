@@ -10,8 +10,14 @@
 
 using namespace std;
  
+struct Persona
+{
+    string Nombres;
+    int DNI;
+    char Sexo;
+};
 
-struct Usuario
+struct Cliente
 {
     string Nombres;
     string Apellidos;
@@ -38,52 +44,101 @@ struct Libros
 int main()
 {
 
-    int OpcionProceso;
-    Usuario* DatosUsuario;
-    int CantidadPersona = 1;
+
+
+
+    delete[] DatosCliente;
+
+    return 0;
+}
+}
+
+
+void RegistroDatos()
+{
+    Usuario* DatosCliente;
+    int CantidadPersona = 1; 
 
     cout << "\n\t\tBienvenido a la libreria " << endl;
     cout << "\t\tIngrese sus datos: " << endl;
     cout << "\t\t----------------------------------" << endl;
 
-    DatosUsuario = new Usuario[CantidadPersona];
+    DatosCliente = new Cliente[CantidadPersona];
 
     for (int i = 0; i < CantidadPersona; i++)
     {
         cout << "\t\tNombre   : ";
-        cin >> DatosUsuario[i].Nombres;
+        cin >> DatosCliente[i].Nombres;
         cin.ignore();
-        getline(cin, DatosUsuario[i].Nombres);
+        getline(cin, DatosCliente[i].Nombres);
 
         cout << "\t\tApellidos  : ";
-        cin >> DatosUsuario[i].Apellidos;
+        cin >> DatosCliente[i].Apellidos;
         cin.ignore();
-        getline(cin, DatosUsuario[i].Apellidos);
+        getline(cin, DatosCliente[i].Apellidos);
 
         cout << "\t\tEdad    : ";
-        cin >> DatosUsuario[i].Edad;
+        cin >> DatosCliente[i].Edad;
 
-        cout << "\t\tDNI  : ";
+        do
+        {
+            cout << "\t\tDNI    : ";
+            cin >> DatosCliente[i].DNI;
 
+            if (DatosCliente[i].DNI < 10000000 || DatosCliente[i].DNI>100000000)
+            {
+                cout << "\t\t [" << DatosCliente[i].DNI << "] ingresado no valido, porfavor ingrese denuevo..." << endl;
+
+            }
+
+        } while (DatosCliente[i].DNI < 10000000 || DatosCliente[i].DNI>100000000);
 
         cout << "\t\tDireccion  : ";
         cin.ignore();
-        getline(cin, DatosUsuario[i].Direccion);
+        getline(cin, DatosCliente[i].Direccion);
 
-        cout << "\t\tSexo    : ";
-        cin >> DatosUsuario[i].Sexo;
-
-        cout << "\t\tCelular  : ";
         do
         {
+            cout << "\t\tSexo    : ";
+            cin >> DatosCliente[i].Sexo;
 
-            cin >> DatosUsuario[i].Celular;
+            DatosCliente[i].Sexo = toupper(DatosCliente[i].Sexo);
 
-        } while (DatosUsuario[i].Celular < 100000000 || DatosUsuario[i].Celular>1000000000);
+            if (!(DatosCliente[i].Sexo == 'F' || DatosCliente[i].Sexo == 'M'))
+            {
+                cout << "\t\t [" << DatosCliente[i].Sexo << "] ingresado no valido, porfavor ingrese denuevo..." << endl;
+
+            }
+
+        } while (!(DatosCliente[i].Sexo == 'F' || DatosCliente[i].Sexo == 'M'));
+
+
+        do
+        {
+            cout << "\t\tCelular  : ";
+            cin >> DatosCliente[i].Celular;
+
+            if (DatosCliente[i].Celular < 100000000 || DatosCliente[i].Celular>1000000000)
+            {
+                cout << "\t\t [" << DatosCliente[i].Celular << "] ingresado no valido, porfavor ingrese denuevo..." << endl;
+
+            }
+
+        } while (DatosCliente[i].Celular < 100000000 || DatosCliente[i].Celular>1000000000);
 
 
         cout << "\t\t----------------------------------" << endl;
     }
+
+
+
+
+}
+
+void MenuInicio() {
+
+    int OpcionProceso;
+
 
     cout << "\n\t\tBienvenido al la libreria UPC!!" << endl;
     cout << "\t\tIngrese el proceso que desee realizar" << endl;
@@ -94,7 +149,7 @@ int main()
 
 
 
-	
+
 
 
     switch (OpcionProceso)
@@ -121,21 +176,8 @@ int main()
 
 
 
-
-
-    delete[] DatosUsuario;
-
-    return 0;
 }
 
-void RegistroDatos()
-{
-
-
-
-
-
-}
 
 void VentaLibros()
 {
